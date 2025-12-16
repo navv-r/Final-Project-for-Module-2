@@ -70,20 +70,20 @@ nav {
 .Tassa {
     width: 120px;
     height: 120px;
-    margin-left: 16px;
     border-radius: 60px;
     display: flex;
     justify-content: center;
+    
 }
 
 .page__title {
-    font-size: 50px;
-    font-weight: 700;
-    margin-left:80px;
+    font-size: 40px;
+    font-weight: 50;
+    margin-left:10px;
     display: flex;
     align-items: center;
     color: mediumslateblue;
-    
+    font-family:fantasy ;
     border-radius: 10px;
     padding: 5px;
 }
@@ -93,7 +93,7 @@ nav {
     display: none;
     background: transparent;
     border: none;
-    transition: all 300ms ease;
+    transition: all 500ms ease;
 }
 
 .btn__menu--svg:hover {
