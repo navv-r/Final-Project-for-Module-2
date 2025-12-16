@@ -51,7 +51,7 @@ NAVBAR ↓
 
 nav {
     display: flex;
-    padding-top: 32px;
+    padding-top: 16px;
 }
 
 .nav__row {
@@ -64,6 +64,12 @@ nav {
     align-items: center;
     margin: 8px 0;
     padding-bottom: 4px;
+   
+}
+
+.Tassa {
+    width: 120px;
+    height: 100px;
 }
 
 
