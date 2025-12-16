@@ -52,6 +52,7 @@ NAVBAR ↓
 nav {
     display: flex;
     padding-top: 16px;
+    background-color: teal;
 }
 
 .nav__row {
@@ -69,8 +70,25 @@ nav {
 
 .Tassa {
     width: 120px;
-    height: 100px;
+    height: 120px;
+    margin-left: 16px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
 }
+
+.page__title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-left:80px;
+    display: flex;
+    align-items: center;
+    color: mediumslateblue;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 
 
 .btn__menu {
