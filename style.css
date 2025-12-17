@@ -173,6 +173,9 @@ header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .Tassa__Blurb {
@@ -181,8 +184,17 @@ header .row {
     line-height: 1.6;
     margin-top: 16px;
     display: flex;
+    flex-direction: column;
+    width: 40%;
     align-items: center;
     justify-content: space-between;
+}
+
+.Tassa__Full {
+    width: 400px;
+    height: auto;
+    border-radius: 16px;
+    
 }
 
 
@@ -309,7 +321,7 @@ MOBILE RESPONSIVENESS ↓
 
 @media(max-width: 1280px) {
     header .row {
-        align-items: flex-end;
+        align-items: flex-center;
     }
 }
 
