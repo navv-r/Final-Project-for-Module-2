@@ -98,6 +98,7 @@ nav {
 
 .btn__menu--svg:hover {
     filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
+    color: rgb(24, 146, 228);
 }
 
 .modal {
@@ -155,8 +156,9 @@ nav {
 
 .btn__menu--close {
     position: fixed;
-    top: 24px;
-    right: 18px;
+    top: 16px;
+    right: 16px;
+
 }
 
 
@@ -168,6 +170,16 @@ HEADER / ABOUT US ↓
 
 
 header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Tassa__Blurb {
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-top: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
