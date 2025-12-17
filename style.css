@@ -30,7 +30,7 @@ body {
 }
 
 .purple {
-    color: #6415ff;
+    color: rgb(24, 146, 228);
 }
 
 section {
@@ -99,6 +99,7 @@ nav {
 .btn__menu--svg:hover {
     filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
     color: rgb(24, 146, 228);
+    cursor: pointer;
 }
 
 .modal {
@@ -184,17 +185,17 @@ header .row {
     line-height: 1.6;
     margin-top: 16px;
     display: flex;
-    flex-direction: column;
     width: 40%;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .Tassa__Full {
-    width: 400px;
-    height: auto;
+    width: 300px;
+    height: 0 auto;
     border-radius: 16px;
-    
+    border-radius: 50px;
 }
 
 
@@ -305,7 +306,7 @@ FOOTER ↓
 
 footer {
     padding: 96px 32px;
-    background-color: rgb(100, 21, 255);
+    background-color: lightslategrey;
     margin-bottom: -32px;
     position: relative;
     overflow: hidden;
@@ -322,11 +323,13 @@ MOBILE RESPONSIVENESS ↓
 @media(max-width: 1280px) {
     header .row {
         align-items: flex-center;
+        text-align: center;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
 
+}
     .btn__menu {
         display: block;
     }
@@ -335,11 +338,11 @@ MOBILE RESPONSIVENESS ↓
         align-items: center;
     }
     footer {
-        padding: 80px 32px;
+        padding: 32px 32px;
     }
-}
 
-@media(max-width: 768px) {
+
+@media(max-width: 1280px) {
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
@@ -354,7 +357,7 @@ MOBILE RESPONSIVENESS ↓
     }
 }
 
-@media(max-width: 640px) {
+@media(max-width: 1280px) {
     .container {
         padding: 80px 0;
     }
