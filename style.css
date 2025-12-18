@@ -210,10 +210,9 @@ FEATURES ↓
 
 */
 
-
 .row__narrow {
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 .container {
@@ -221,10 +220,19 @@ FEATURES ↓
     flex-wrap: wrap;
 }
 
-.Features {
+
+.Features__Title {
     display: flex;
-    width: calc(100% / 3);
+    align-items: center;
+    justify-content: space-between;
 }
+
+.Feature__Title {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
   
 
 /* 
