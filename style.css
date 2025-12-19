@@ -73,9 +73,9 @@ nav {
    
 }
 
-.Tassa {
-    width: 120px;
-    height: 120px;
+.Tree {
+    width: 132px;
+    height: 140px;
     border-radius: 60px;
     display: flex;
     justify-content: center;
@@ -184,13 +184,13 @@ header .row {
     margin: 0 auto;
 }
 
-.Tassa__Blurb {
+.Plate__Blurb {
     font-size: 18px;
-    max-width: 600px;
+    max-width: 1200px;
     line-height: 1.6;
     margin-top: 16px;
     display: flex;
-    width: 40%;
+    width: 60%;
     align-items: center;
     text-align: center;
     justify-content: space-around;
@@ -203,6 +203,14 @@ header .row {
     border-radius: 50px;
 }
 
+.Plate {
+    width: 500px;
+    height: 0 auto;
+    border-radius: 16px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
 
 /* 
 
@@ -210,30 +218,71 @@ FEATURES ↓
 
 */
 
-.row__narrow {
-   display: flex;
-   flex-wrap: wrap;
-}
-
-.container {
+section {
     display: flex;
     flex-wrap: wrap;
-}
-
-
-.Features__Title {
-    display: flex;
+    margin-top: 40px;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
 }
 
-.Feature__Title {
+.features {
     display: flex;
     flex-wrap: wrap;
-
+    margin-top: 40px
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-  
+.feature {
+    width: auto;
+    max-width: 384px;
+}
+
+.feature__row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 8px;
+    display: flex;
+    margin: 0px 16px;
+}
+
+.feature__img--wrapper {
+    display: flex;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 500px;
+    border-image: initial;
+}
+
+.feature__img {
+    width: 24px;
+    height: 24px;
+}
+
+.feature__text {
+    margin-left: 0px;
+    margin-top: 16px;
+}
+
+.feature__title {
+    letter-spacing: 0.025em;
+    line-height: 1;
+}
+
+.feature__para {
+    margin-top: 4px;
+    line-height: 2;
+    max-width: none;
+    color: #1a202c;
+    font-weight: 500;
+    font-size: 16px;
+}
 
 /* 
 
