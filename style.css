@@ -179,7 +179,16 @@ nav {
 HEADER / ABOUT US ↓
 
 */
-
+.header__title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+    margin: 16px 0px;
+    justify-content: center;
+    text-align: center;
+}
 
 header .row {
     display: flex;
@@ -217,6 +226,17 @@ header .row {
 FEATURES ↓
 
 */
+
+.Features__Title{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+    margin: 16px 0px;
+    justify-content: center;
+    text-align: center;
+}
 
 section {
     display: flex;
@@ -268,6 +288,7 @@ section {
 .feature__text {
     margin-left: 0px;
     margin-top: 16px;
+    font-size: 18px;
 }
 
 .feature__title {
@@ -281,7 +302,7 @@ section {
     max-width: none;
     color: #1a202c;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* 
@@ -334,9 +355,9 @@ QUALITY WORK ↓
     background-color: rgb(24, 146, 228);
     font-size: 16px;
     color: white
-    font-weight: bold;
     cursor: pointer;
     padding: 12px 32px;
+    margin-top: 16px;
     border-width: initial;
     border-style: none;
     border-color: initial;
@@ -357,22 +378,64 @@ QUALITY WORK ↓
 }
 
 .quality__img {
-    z-index: 1;
+    z-index: 4;
 }
 /* 
 
 STEPS ↓
 
 */
+.container {
+        padding: 80px 0;
+    }
 
-
-#steps .row {
+.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.steps__img--wrapper {
+    display: flex;
+    position: relative;
+}
 
+.steps__description {
+    padding: 32px 0;
+    padding-left: 64px;
+}
+
+.section__tag {
+    font-size: 16px;
+    color: rgb(24, 146, 228);
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section__title {
+    margin: 16px 0 0 0;
+    font-size: 32px;
+    }
+
+.step__para {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.step__number {
+    color: rgb(24, 146, 228);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.steps__list {
+        margin-top: 48px;
+    }
 /* 
 
 VALUES ↓
