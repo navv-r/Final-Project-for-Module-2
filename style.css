@@ -264,7 +264,7 @@ section {
 
 .feature {
     width: auto;
-    max-width: 384px;
+    max-width: 500px;
 
 }
 
@@ -289,14 +289,25 @@ section {
 }
 
 .feature__img {
-    width: 24px;
-    height: 24px;
+    width: 64px;
+    height: 64px;
+}
+
+.feature__img--small {
+    width: 100px;
+    height: 100px;
+}
+
+.feature__img--xtrasmall {
+    width: 120px;
+    height: 120px;
 }
 
 .feature__text {
     margin-left: 24px;
     margin-top: 16px;
     font-size: 18px;
+    max-width: 500px;
 }
 
 .feature__title {
