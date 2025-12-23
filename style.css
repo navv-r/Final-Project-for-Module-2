@@ -659,7 +659,7 @@ PRICING ↓
 
 .plan__button {
     border-radius: 0.25rem;
-    background-color: rgb(100 21 255);
+    background-color: rgb(24, 146, 228);
     padding: 0.75rem 2rem;
     font-weight: 700;
     color: rgb(247 250 252);
@@ -733,12 +733,44 @@ START / CALL TO ACTION ↓
 
 */
 
-
-
-#start .row {
+.row {
     position: relative;
     overflow: hidden;
 }
+
+.start__container {
+    padding: 96px 0;
+    width: 100%;
+    background-color: rgb(24, 146, 228);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__row {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__title {
+    color: ;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    z-index: 2;
+}
+
+.start__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 
 /* 
@@ -746,17 +778,72 @@ START / CALL TO ACTION ↓
 FOOTER ↓
 
 */
-
-
-footer {
-    padding: 96px 32px;
-    background-color: lightslategrey;
-    margin-bottom: -32px;
-    position: relative;
-    overflow: hidden;
+.footer__columns {
+    margin-top: -48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+.footer__column {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+}
 
+.footer__column--title {
+    font-weight: 700;
+    color: darkslategray;
+    line-height: 1.5;
+}
+
+.footer__column--link {
+    color: darkslategrey;
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer__divider {
+    width: 100%;
+    height: 2px;
+    margin: 64px 0;
+    background: black;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    color: darkslategrey;
+    font-weight: 500;
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    margin-left: -16px;
+}
+
+.footer__social--link {
+    margin-left: 16px;
+    padding: 8px;
+    background: #f7fafc;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
 /* 
 
 MOBILE RESPONSIVENESS ↓
