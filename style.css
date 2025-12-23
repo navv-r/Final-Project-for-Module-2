@@ -778,11 +778,36 @@ START / CALL TO ACTION ↓
 FOOTER ↓
 
 */
-.footer__columns {
-    margin-top: -48px;
+
+footer {
+    background-color: #f7fafc;
+    padding: 48px 32px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.footer_row {
+    width: 70%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    text-align: center;
+}
+
+.footer__columns {
+    margin-top: -24px;
+    display: flex;
     flex-wrap: wrap;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: space-evenly;
+   
 }
 
 .footer__column {
@@ -797,6 +822,9 @@ FOOTER ↓
     font-weight: 700;
     color: darkslategray;
     line-height: 1.5;
+    justify-content: center
+    text-align: center;
+    align-items: center;
 }
 
 .footer__column--link {
@@ -807,6 +835,10 @@ FOOTER ↓
     font-weight: 500;
     position: relative;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 
 .footer__divider {
@@ -814,6 +846,7 @@ FOOTER ↓
     height: 2px;
     margin: 64px 0;
     background: black;
+    max-width: 1280px;
 }
 
 .footer__bottom {
@@ -829,8 +862,10 @@ FOOTER ↓
 
 .footer__socials {
     display: flex;
-    align-items: center;
+    align-items: right;
     margin-left: -16px;
+    justify-content: right;
+    text-align: right;
 }
 
 .footer__social--link {
