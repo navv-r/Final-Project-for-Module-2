@@ -194,12 +194,14 @@ HEADER / ABOUT US ↓
 
 .container__heading {
     padding: 96px 0px;
+    flex-direction: row-reverse;
 }
 
-.row {
+header .row {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -218,11 +220,20 @@ HEADER / ABOUT US ↓
 }
 
 
-.Plate {
-    width: 500px;
+.plate__img {
+    width: 480px;
     height: 0 auto;
-    border-radius: 16px;
     border-radius: 50px;
+    margin-top: 20px;
+}
+
+.plate__img--wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
     margin-top: 20px;
 }
 
@@ -592,13 +603,13 @@ PRICING ↓
     flex-direction: column;
     border-radius: 0.5rem;
     background-color: rgb(255 255 255);
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-right: 2rem;
+    padding-left: 12px;
+    padding-right: 12px;
     padding-top: 0.5rem;
     text-align: center;
     color: rgb(26 32 44);
-   
+    border-style: solid;
+    margin: 12px;
 }
 
 .plan__top {
@@ -768,10 +779,20 @@ START / CALL TO ACTION ↓
 
 .start__buttons {
     display: flex;
-    justify-content: flex-end;
+    margin-top: 12px;
+    flex-direction: row;
 }
 
-
+.start__button {
+    font-weight: 700;
+    color: white;
+    transition: all 300ms ease;
+    width: 150px;
+    border-radius: 50px;
+    background-color: rgb(24, 146, 228);
+    padding: 8px;
+    margin: 8px;
+}
 
 /* 
 
@@ -878,6 +899,8 @@ footer {
     z-index: 2;
     cursor: pointer;
     transition: all 300ms ease;
+    width: 56px;
+    height: auto;
 }
 /* 
 
