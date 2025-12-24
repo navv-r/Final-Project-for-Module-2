@@ -91,11 +91,10 @@ nav {
 .page__title {
     font-size: 40px;
     font-weight: 50;
-    margin-left:10px;
     display: flex;
     align-items: center;
     color: rgb(24, 146, 228);
-    font-family:fantasy ;
+    font-family: fantasy;
     border-radius: 10px;
     padding: 50px;
     max-width: 1280px;
@@ -381,19 +380,15 @@ QUALITY WORK ↓
     line-height: 1.625;
 }
 
-.btn {
+.quality__btn {
     background-color: rgb(24, 146, 228);
     font-size: 16px;
-    color: white
+    color: white;
     cursor: pointer;
     padding: 12px 32px;
     margin-top: 16px;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
+    border-style: solid;
     border-radius: 500px;
-    transition: 300ms;
 }
 
 .quality__img--wrapper {
@@ -432,12 +427,17 @@ STEPS ↓
     position: relative;
 }
 
+.steps__img {
+    width: 350px;
+    height: 350px;
+}
+
 .steps__description {
     padding: 32px 0;
     padding-left: 64px;
 }
 
-.section__tag {
+.steps__tag {
     font-size: 16px;
     color: rgb(24, 146, 228);
     letter-spacing: 1.6px;
@@ -493,13 +493,6 @@ VALUES ↓
     text-transform: uppercase;
 }
 
-.section__para {
-    font-size: 18px;
-    font-weight: 500;
-    color: #7c8ba1;
-    line-height: 1.625;
-}
-
 .values__list {
     margin-left: 0px;
     margin-right: 0px;
@@ -518,8 +511,7 @@ VALUES ↓
 
 .value__title {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
 }
 
 .value__name {
@@ -531,12 +523,14 @@ VALUES ↓
     justify-content: center;
     align-items: center;
     display: flex;
+    text-align: left;
 }
 
 .value__para {
     margin-top: 16px;
     line-height: 1.625;
     color: #718096;
+    text-align: left;
 }
 
 .values__img {
@@ -556,7 +550,7 @@ VALUES ↓
 .values__btn {
     background-color: rgb(24, 146, 228);
     padding: 12px 32px;
-    border: none;
+    border-style: solid;
     border-radius: 500px;
     font-size: 16px;
     color: #fff;
@@ -602,7 +596,25 @@ PRICING ↓
     max-width: 24rem;
     flex-direction: column;
     border-radius: 0.5rem;
-    background-color: rgb(255 255 255);
+    background-color: bisque;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 0.5rem;
+    text-align: center;
+    color: rgb(26 32 44);
+    border-style: solid;
+    margin: 12px;
+}
+
+.plan__highlighted {
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    max-width: 24rem;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background-color: lightblue;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 0.5rem;
@@ -627,7 +639,7 @@ PRICING ↓
 
 .plan__price {
     font-size: 48px;
-    margin: 4px 0;
+    margin: 12px 0;
 }
 
 .plan__duration {
@@ -658,7 +670,7 @@ PRICING ↓
 .plan__feature {
     margin-top: 20px;
     font-weight: 500;
-    color: #718096;
+    color: darkslategrey;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -669,19 +681,17 @@ PRICING ↓
 }
 
 .plan__button {
-    border-radius: 0.25rem;
     background-color: rgb(24, 146, 228);
-    padding: 0.75rem 2rem;
+    padding: 8px;
     font-weight: 700;
     color: rgb(247 250 252);
     transition: all 300ms ease;
     width: 100%;
     border-radius: 9999px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    margin: 8px;
 }
 
 .plan__stripe {
@@ -692,6 +702,14 @@ PRICING ↓
     height: 0.5rem;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
+}
+
+.price__para {
+    font-size: 16px;
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 1.625;
+    color: #718096;
 }
 
 /* 
@@ -705,6 +723,14 @@ TESTIMONIALS ↓
     display: flex;
 }
 
+.section__title {
+    text-align: left;
+}
+
+.section__para {
+    text-align: left;
+}
+
 .testimonials__description {
     display: flex;
     flex-direction: column;
@@ -712,9 +738,16 @@ TESTIMONIALS ↓
 }
 
 .testimonial {
-    margin-top: 40px;
+    margin-top: 12px;
 }
 
+.testimonial__rating {
+    color: rgba(246, 173, 85);
+    margin-right: 2px;
+    margin-top: 4px;
+    text-align: left;
+    font-size: 32px;
+}
 .star {
     color: rgba(246, 173, 85);
     margin-right: 2px;
@@ -727,6 +760,7 @@ TESTIMONIALS ↓
     margin-top: 1rem;
     font-size: 1.25rem;
     font-weight: 700;
+    text-align: left;
 }
 
 .testimonial__para {
@@ -736,7 +770,85 @@ TESTIMONIALS ↓
     line-height: 1.625;
     font-size: 16px;
     color: rgb(74 85 104);
+    text-align: left;
 }
+
+.testimonial__img {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.testimonials__img {
+    width: 350px;
+    height: 350px;
+}
+
+.section__tag {
+    font-size: 16px;
+    color: rgb(24, 146, 228);
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.testimonial__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial__name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #243e63;
+    text-align: left;
+}
+
+.testimonial__role {
+    font-size: 16px;
+    font-weight: 700;
+    color: #243e63;
+    text-align: left;
+}
+
+.testimonial__profile {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__details {
+    margin-left: 24px;
+}
+
+.testimonial__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(24, 146, 228);
+    color: white;
+    border-radius: 40%;
+    margin: 0 12px;
+}
+
+.divider {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-right-width: 1px;
+    width: 0.5px;
+    background-color: #edf2f7;
+    height: 20px;
+}
+
 
 /* 
 
@@ -901,6 +1013,12 @@ footer {
     transition: all 300ms ease;
     width: 56px;
     height: auto;
+}
+
+.footer__logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 12px;
 }
 /* 
 
