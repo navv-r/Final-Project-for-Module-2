@@ -942,6 +942,8 @@ START / CALL TO ACTION ↓
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: lightblue;
+    border-radius: 50px;
 }
 
 .start__title {
@@ -954,7 +956,7 @@ START / CALL TO ACTION ↓
 
 .start__buttons {
     display: flex;
-    margin-top: 12px;
+    margin: 12px 0;
     flex-direction: row;
 }
 
