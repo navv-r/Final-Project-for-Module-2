@@ -944,6 +944,7 @@ START / CALL TO ACTION ↓
     align-items: center;
     background-color: lightblue;
     border-radius: 50px;
+    min-height: 250px;
 }
 
 .start__title {
