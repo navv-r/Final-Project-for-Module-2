@@ -1094,7 +1094,7 @@ MOBILE RESPONSIVENESS ↓
 */
 
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
 
     .row {
         flex-direction: column;
@@ -1105,9 +1105,24 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: column;
     }
 
+    .Tree {
+        width: 25%;
+        height: auto;
+
+    }    
     header .row {
         flex-direction: column;
     }
+
+    .header__title {
+        text-align: center;
+    }
+
+    .header__description--para {
+        text-align: center;
+    }
+
+
 
     .quality__row {
         flex-direction: column;
@@ -1223,4 +1238,28 @@ MOBILE RESPONSIVENESS ↓
         padding: 0;
     }
 
+    .footer__column {
+        padding: 0 10px;
+    }
+
+    .header__email--input {
+        position: static;
+        width: 100%;
+        padding: 16px 0;
+        padding-left: 32px;
+        line-height: 1.5;
+        border-style: solid;
+        border-color: black;
+    }
+
+    .header__email--btn {
+        width: 100%;
+        height: 68px;
+        padding: 16px 0;
+        margin: 70px 0;
+        margin-bottom: 0px;
+        line-height: 1.5;
+        border-style: solid;
+        border-color: black;
+    }
 }
