@@ -1094,49 +1094,70 @@ MOBILE RESPONSIVENESS ↓
 */
 
 
-@media(max-width: 1280px) {
-    header .row {
-        align-items: flex-center;
+@media (max-width: 700px) {
+    
+    .container {
+        padding: 32px 12px;
+        flex-direction: column;
+    }
+
+    .
+
+    .quality__row {
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
-}
-
-@media (max-width: 1280px) {
-
-}
-    .btn__menu {
-        display: block;
     
-    }
-    footer {
-        padding: 32px 32px;
+    .quality__btn {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
+    .quality__description {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0 16px;
+    }
 
-@media(max-width: 1280px) {
-    #quality .row,
+    .section__para {
+        text-align: center;
+    }
+
     #values .row {
-        flex-direction: column-reverse;
-    }
-    #steps .row,
-    #testimonials .row {
         flex-direction: column;
         align-items: center;
     }
-    #pricing .row {
-        margin-top: 40px;
-    }
-}
 
-@media(max-width: 1280px) {
-    .container {
-        padding: 80px 0;
+    .values__description {
+        text-align: center;
+        padding: 0;
     }
-    .nav__logo {
-        margin: 8px 0;
-        padding-bottom: 4px;
+    .plans {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 12px;
     }
-    main {
-        margin-bottom: 80px;
+
+    .price__para {
+        padding: 0 12px;
+    }
+
+    .section__title {
+        align-items: center;
+        text-align: center;
+    }
+
+    .section__tag {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .start__row {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 12px;
     }
 }
