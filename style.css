@@ -1177,6 +1177,7 @@ MOBILE RESPONSIVENESS ↓
 
     .header__email {
         flex-direction: column;
+        margin-bottom: 100px;
     }
 
     .header__email--btn {
@@ -1197,6 +1198,7 @@ MOBILE RESPONSIVENESS ↓
 
     .page__title {
         padding: 0;
+        max-width: 60%;
     }
 
     .btn__menu--svg {
